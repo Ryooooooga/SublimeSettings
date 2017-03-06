@@ -1,0 +1,6 @@
+<snippet>
+	<description>#pragma once</description>
+	<content><![CDATA[pragma once]]></content>
+	<tabTrigger>pragma once</tabTrigger>
+	<scope>(source.c | source.objc | source.c++ | source.objc++)</scope>
+</snippet>

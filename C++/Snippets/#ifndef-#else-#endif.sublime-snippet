@@ -1,0 +1,8 @@
+<snippet>
+	<description>#ifdef … #else … #endif</description>
+	<content><![CDATA[#ifdef ${1/([A-Za-z0-9_]+).*/$1/}
+#else//${1:SYMBOL}
+#endif//${1:SYMBOL}]]></content>
+	<tabTrigger>ifdef</tabTrigger>
+	<scope>source.c, source.c++, source.objc, source.objc++</scope>
+</snippet>

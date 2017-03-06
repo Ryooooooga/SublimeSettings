@@ -1,0 +1,6 @@
+<snippet>
+	<description>std::move</description>
+	<content><![CDATA[std::move(${1:x})$0]]></content>
+	<tabTrigger>move</tabTrigger>
+	<scope>source.c++, source.objc++</scope>
+</snippet>

@@ -1,0 +1,15 @@
+{
+	"close_windows_when_empty": false,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"bazel-*"
+	],
+	"ignored_packages":
+	[
+		"Vintage"
+	]
+}

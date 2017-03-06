@@ -1,0 +1,9 @@
+<snippet>
+	<name>Getter</name>
+	<content><![CDATA[${1:type} ${2:value}() const noexcept
+{
+	return ${3:${2:value}_};
+}]]></content>
+	<tabTrigger>getter</tabTrigger>
+	<scope>source.c++, source.objc++</scope>
+</snippet>

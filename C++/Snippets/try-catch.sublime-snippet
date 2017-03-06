@@ -1,0 +1,13 @@
+<snippet>
+	<name>try-catch</name>
+	<content><![CDATA[try
+{
+	$1
+}
+catch (const ${2:std::exception}& e)
+{
+	$3
+}]]></content>
+	<tabTrigger>try</tabTrigger>
+	<scope>source.c++, source.objc++</scope>
+</snippet>

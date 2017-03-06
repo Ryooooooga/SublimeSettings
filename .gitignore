@@ -1,2 +1,23 @@
-*/*
-!*/Snippets
+*
+
+!C++/
+C++/*
+!C++/Snippets/
+
+!C#/
+C#/*
+!C#/Snippets/
+
+!EditorConfig/
+
+!Makefile/
+Makefile/*
+!Makefile/*.sublime-settings
+!Makefile/*.sublime-build
+
+!User/
+User/Package Control.cache/
+User/*.sublime-license
+User/*.last-run
+User/*.merged-ca-bundle
+User/*.user-ca-bundle

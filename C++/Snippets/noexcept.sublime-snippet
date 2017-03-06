@@ -1,0 +1,6 @@
+<snippet>
+	<description>noexcept</description>
+	<content><![CDATA[noexcept]]></content>
+	<tabTrigger>noexcept</tabTrigger>
+	<scope>source.c++, source.objc++</scope>
+</snippet>

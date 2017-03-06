@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+${3:public} ${1:void} ${2:MethodName}(${4})
+{
+	${0}
+}]]></content>
+	<tabTrigger>func</tabTrigger>
+	<description>Public Method</description>
+	<scope>source.cs</scope>
+</snippet>

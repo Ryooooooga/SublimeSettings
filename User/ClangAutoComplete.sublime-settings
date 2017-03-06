@@ -1,0 +1,12 @@
+{
+	"include_dirs": [
+		"$project_base_path/src",
+		"${SPROUT_PATH}",
+		"/usr/local/include/c++/7.0.1",
+		"/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.0.1/include",
+		"/usr/local/include/c++/7.0.1/x86_64-pc-linux-gnu",
+		"/usr/include/boost/"
+	],
+	"std_flag" : "-std=c++1z"
+
+}

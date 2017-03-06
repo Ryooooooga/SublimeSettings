@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+${1:public} enum ${2:EnumName}
+{
+	${0}
+}]]></content>
+	<tabTrigger>enum</tabTrigger>
+	<description>Enum</description>
+	<scope>source.cs</scope>
+</snippet>

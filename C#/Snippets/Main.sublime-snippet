@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+public static void Main(${4:string[] args})
+{
+	${0}
+}]]></content>
+	<tabTrigger>main</tabTrigger>
+	<description>Main Method</description>
+	<scope>source.cs</scope>
+</snippet>

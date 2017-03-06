@@ -1,0 +1,43 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"AlignTab",
+		"All Autocomplete",
+		"BracketHighlighter",
+		"Case Conversion",
+		"DoxyDoxygen",
+		"EditorConfig",
+		"FindKeyConflicts",
+		"Gist",
+		"Git",
+		"GitGutter",
+		"Google Search",
+		"Increment Selection",
+		"Package Control",
+		"PackageResourceViewer",
+		"Pretty JSON",
+		"ProjectManager",
+		"Shader Syntax (GLSL HLSL Cg)",
+		"SML (Standard ML)",
+		"Sublime Files",
+		"SublimeLinter-cppcheck",
+		"SublimeLinter-cpplint",
+		"SublimeLinter-json",
+		"SublimeLinter-rst",
+		"SublimeMozcInput",
+		"SyncedSideBar",
+		"Terminal",
+		"Terminality",
+		"Theme - Flatland",
+		"TodoReview"
+	],
+	"repositories":
+	[
+		"http://github.com/yasuyuky/SublimeMozcInput"
+	]
+}

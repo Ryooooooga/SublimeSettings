@@ -1,0 +1,9 @@
+<snippet>
+	<description>Doxygen @see</description>
+	<content><![CDATA[
+/**
+ * @see        ${1:see}
+ */$0]]></content>
+	<tabTrigger>see</tabTrigger>
+	<scope>source.c++, source.d, source.js, source.c</scope>
+</snippet>

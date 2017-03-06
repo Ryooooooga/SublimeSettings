@@ -1,0 +1,16 @@
+<snippet>
+	<description>Boost Software License</description>
+	<content><![CDATA[//=========================================================================================
+// Copyright (c) 2017 Ryooooooga.
+// https://github.com/Ryooooooga
+//
+// Distributed under the Boost Software License, Version 1.0.
+// (See accompanying file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
+//=========================================================================================
+
+$0
+
+]]></content>
+	<tabTrigger>license-boost</tabTrigger>
+	<scope>source.c++, source.d, source.js, source.c, source.cs</scope>
+</snippet>

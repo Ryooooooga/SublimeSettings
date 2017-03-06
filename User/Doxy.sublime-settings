@@ -1,0 +1,14 @@
+// Settings in here override those in "${packages}/DoxyDoxygen/Doxy.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+	"continuation_on_last_comment": false,
+	"block_layout": {
+		"XmlDoc": [
+			"<summary>",
+			"<paramref",
+			"<param",
+			"<returns>",
+			"<exception"
+		]
+	}
+}
