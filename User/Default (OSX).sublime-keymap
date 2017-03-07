@@ -1,0 +1,4 @@
+[
+	{ "keys": ["super+alt+n"], "command": "advanced_new_file_new"},
+	{ "keys": ["super+alt+o"], "command": "sublime_files", "args": {"command":"navigate"}},
+]

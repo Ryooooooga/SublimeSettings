@@ -24,3 +24,5 @@ User/*.last-run
 User/*.merged-ca-bundle
 User/*.user-ca-bundle
 User/*.oscrypto-ca-bundle
+
+.DS_Store

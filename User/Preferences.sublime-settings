@@ -1,5 +1,6 @@
 {
 	"close_windows_when_empty": false,
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"folder_exclude_patterns":
 	[
 		".svn",
@@ -8,9 +9,9 @@
 		"CVS",
 		"bazel-*"
 	],
-    "scroll_past_end": true,
 	"ignored_packages":
 	[
 		"Vintage"
-	]
+	],
+	"scroll_past_end": true
 }
