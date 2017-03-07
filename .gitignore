@@ -17,7 +17,10 @@ Makefile/*
 
 !User/
 User/Package Control.cache/
+User/encoding_cache.json
+User/oscrypto-ca-bundle.crt
 User/*.sublime-license
 User/*.last-run
 User/*.merged-ca-bundle
 User/*.user-ca-bundle
+User/*.oscrypto-ca-bundle
