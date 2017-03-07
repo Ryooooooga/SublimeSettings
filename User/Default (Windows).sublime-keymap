@@ -3,7 +3,6 @@
 	{ "keys": ["ctrl+shift+t"], "command": "open_terminal_project_folder" },
 	{ "keys": ["ctrl+alt+n"], "command": "advanced_new_file_new"},
 	{ "keys": ["ctrl+alt+o"], "command": "sublime_files", "args": {"command": "navigate"} },
-	{ "keys": ["ctrl+alt+]"], "command": "alignment" },
 	{ "keys": ["shift+alt+up"], "command": "select_lines", "args": {"forward": false} },
 	{ "keys": ["shift+alt+down"], "command": "select_lines", "args": {"forward": true} },
 	{ "keys": ["alt+/"], "command": "auto_complete" },
