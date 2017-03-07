@@ -8,6 +8,7 @@
 		"CVS",
 		"bazel-*"
 	],
+    "scroll_past_end": true,
 	"ignored_packages":
 	[
 		"Vintage"
