@@ -2,6 +2,7 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"IMESupport"
 	],
 	"installed_packages":
 	[
@@ -44,7 +45,6 @@
 		"Terminal",
 		"Terminality",
 		"Theme - amCoder",
-		"Theme - Flatland",
 		"TodoReview"
 	],
 	"repositories":
