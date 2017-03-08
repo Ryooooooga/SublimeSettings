@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
 default:
-  ${0}
-  break;]]></content>
+	${0}
+	break;]]></content>
 	<tabTrigger>default</tabTrigger>
 	<description>Default</description>
 	<scope>source.cs</scope>

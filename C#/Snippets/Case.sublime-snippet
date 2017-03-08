@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
 case ${1:Constant}:
-  ${0}
-  break;]]></content>
+	${0}
+	break;]]></content>
 	<tabTrigger>case</tabTrigger>
 	<description>Case</description>
 	<scope>source.cs</scope>
