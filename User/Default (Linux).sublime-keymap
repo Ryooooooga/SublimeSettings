@@ -4,4 +4,6 @@
 	{ "keys": ["ctrl+alt+n"], "command": "advanced_new_file_new"},
 	{ "keys": ["ctrl+alt+o"], "command": "sublime_files", "args": {"command": "navigate"} },
 	{ "keys": ["ctrl+space"], "command": "toggle_mozc" },
+	{ "keys": ["alt+backspace"], "command": "run_macro_file", "args": {"file": "Packages/User/Macros/delete_subword.sublime-macro"} },
+	{ "keys": ["alt+delete"], "command": "run_macro_file", "args": {"file": "Packages/User/Macros/delete_subword_forward.sublime-macro"} },
 ]
