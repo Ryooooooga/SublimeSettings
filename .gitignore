@@ -25,4 +25,8 @@ User/*.merged-ca-bundle
 User/*.user-ca-bundle
 User/*.oscrypto-ca-bundle
 
+!User/Macros/
+User/Macros/*
+!User/Macros/*.sublime-macro
+
 .DS_Store

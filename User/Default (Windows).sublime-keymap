@@ -5,6 +5,8 @@
 	{ "keys": ["ctrl+alt+o"], "command": "sublime_files", "args": {"command": "navigate"} },
 	{ "keys": ["shift+alt+up"], "command": "select_lines", "args": {"forward": false} },
 	{ "keys": ["shift+alt+down"], "command": "select_lines", "args": {"forward": true} },
+	{ "keys": ["alt+backspace"], "command": "run_macro_file", "args": {"file": "Packages/User/Macros/delete_subword.sublime-macro"} },
+	{ "keys": ["alt+delete"], "command": "run_macro_file", "args": {"file": "Packages/User/Macros/delete_subword_forward.sublime-macro"} },
 	{ "keys": ["alt+/"], "command": "auto_complete" },
 	{ "keys": ["alt+/"], "command": "replace_completion_with_auto_complete", "context":
 		[
