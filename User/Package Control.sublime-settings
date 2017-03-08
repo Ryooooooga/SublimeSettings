@@ -32,6 +32,7 @@
 		"React Templates",
 		"SCSS",
 		"Shader Syntax (GLSL HLSL Cg)",
+		"Smart Delete",
 		"SML (Standard ML)",
 		"Sublime Files",
 		"SublimeLinter",
@@ -42,6 +43,7 @@
 		"SyncedSideBar",
 		"Terminal",
 		"Terminality",
+		"Theme - amCoder",
 		"Theme - Flatland",
 		"TodoReview"
 	],
