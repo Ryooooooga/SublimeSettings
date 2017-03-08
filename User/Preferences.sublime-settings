@@ -1,6 +1,6 @@
 {
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/amCoder (SL).tmTheme",
 	"folder_exclude_patterns":
 	[
 		".svn",
@@ -15,5 +15,5 @@
 	],
 	"scroll_past_end": true,
 	"showencoding": true,
-	"theme": "amCoder Classic.sublime-theme"
+	"theme": "amCoder.sublime-theme"
 }
