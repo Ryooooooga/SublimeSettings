@@ -2,7 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"IMESupport"
 	],
 	"installed_packages":
 	[
@@ -11,6 +10,7 @@
 		"All Autocomplete",
 		"BracketHighlighter",
 		"Case Conversion",
+		"ColorSchemeSelector",
 		"ComputerCraft Package",
 		"ConvertToUTF8",
 		"DoxyDoxygen",
