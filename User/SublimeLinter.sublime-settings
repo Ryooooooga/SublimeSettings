@@ -15,7 +15,7 @@
                 "std": []
             },
             "cpplint": {
-                "@disable": false,
+                "@disable": true,
                 "args": [],
                 "excludes": [],
                 "filter": "-legal/copyright,-whitespace/brace,-whitespace/tab",
