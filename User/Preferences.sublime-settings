@@ -1,4 +1,5 @@
 {
+	"bold_folder_labels": true,
 	"close_windows_when_empty": false,
 	"color_scheme": "Packages/User/SublimeLinter/amCoder (SL).tmTheme",
 	"folder_exclude_patterns":
@@ -14,8 +15,7 @@
 		"Vintage"
 	],
 	"scroll_past_end": true,
-    "bold_folder_labels": true,
+	"show_line_endings": true,
 	"showencoding": true,
-    "show_line_endings": true,
 	"theme": "amCoder.sublime-theme"
 }
