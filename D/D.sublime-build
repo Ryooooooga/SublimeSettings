@@ -6,8 +6,19 @@
 	"variants":
 	[
 		{
+			"name": "Dub Build",
+			"working_dir": "${folder}",
+			"shell_cmd": "dub build",
+		},
+		{
 			"name": "Dub Run",
-			"shell_cmd": "dub run"
+			"working_dir": "${folder}",
+			"shell_cmd": "dub run",
+		},
+		{
+			"name": "Dub Clean",
+			"working_dir": "${folder}",
+			"shell_cmd": "dub clean",
 		}
 	]
 }
