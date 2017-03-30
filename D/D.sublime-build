@@ -1,0 +1,13 @@
+{
+	"cmd": ["dmd", "$file"],
+	"file_regex": "^(.*?)\\(([0-9]+)\\)",
+	"selector": "source.d",
+
+	"variants":
+	[
+		{
+			"name": "Dub Run",
+			"shell_cmd": "dub run"
+		}
+	]
+}

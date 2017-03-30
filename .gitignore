@@ -8,6 +8,11 @@ C++/*
 C#/*
 !C#/Snippets/
 
+!D/
+D/*
+!D/*.sublime-build
+!D/Snippets/
+
 !EditorConfig/
 
 !Makefile/
