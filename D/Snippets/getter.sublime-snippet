@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[${1:auto} ${2:method}()
+{
+	return this._$2;
+}]]></content>
+	<tabTrigger>getter</tabTrigger>
+	<scope>source.d</scope>
+	<description>getter … { … }</description>
+</snippet>

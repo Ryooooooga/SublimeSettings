@@ -1,12 +1,9 @@
 <snippet>
-	<content><![CDATA[/**
- * $2
- */
-${1:void} ${2:method}()
+	<content><![CDATA[${1:void} ${2:method}()
 {
 	${3}
 }]]></content>
-	<tabTrigger>me</tabTrigger>
+	<tabTrigger>func</tabTrigger>
 	<scope>source.d</scope>
-	<description>method … { … }</description>
+	<description>function … { … }</description>
 </snippet>

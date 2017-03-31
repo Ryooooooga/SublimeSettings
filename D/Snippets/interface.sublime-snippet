@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[interface ${1:${TM_FILENAME/(_(.))?|(\.d$)?|(^([Ii])?(.))?/(?1\u$2)(?4\u$5\u$6)/g}}
+{
+}
+]]></content>
+	<tabTrigger>interface</tabTrigger>
+	<scope>source.d</scope>
+	<description>interface … { … }</description>
+</snippet>
