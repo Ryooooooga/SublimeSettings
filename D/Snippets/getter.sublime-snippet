@@ -5,5 +5,5 @@
 }]]></content>
 	<tabTrigger>getter</tabTrigger>
 	<scope>source.d</scope>
-	<description>getter … { … }</description>
 </snippet>
+	<description>getter … { … }</description>
