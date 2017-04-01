@@ -1,13 +1,9 @@
 <snippet>
-	<content><![CDATA[try
-{
-	$1
-}
-finally
+	<content><![CDATA[finally
 {
 	$0
 }]]></content>
-	<tabTrigger>tf</tabTrigger>
+	<tabTrigger>finally</tabTrigger>
 	<scope>source.d</scope>
-	<description>try … finally</description>
+	<description>finally</description>
 </snippet>
