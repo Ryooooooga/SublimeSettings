@@ -3,7 +3,7 @@
 {
 	$0
 }]]></content>
-	<tabTrigger>en</tabTrigger>
+	<tabTrigger>enum</tabTrigger>
 	<scope>source.d</scope>
 	<description>enum … { … }</description>
 </snippet>
