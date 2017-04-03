@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[${1:auto} ${2:method}() const pure
 {
-	return this._$2;
+	return ${3:this._$2};
 }]]></content>
 	<tabTrigger>getter</tabTrigger>
 	<scope>source.d</scope>
