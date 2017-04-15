@@ -1,6 +1,6 @@
 <snippet>
 	<description>#ifdef … #else … #endif</description>
-	<content><![CDATA[#ifdef ${1/([A-Za-z0-9_]+).*/$1/}
+	<content><![CDATA[ifdef ${1/([A-Za-z0-9_]+).*/$1/}
 #else//${1:SYMBOL}
 #endif//${1:SYMBOL}]]></content>
 	<tabTrigger>ifdef</tabTrigger>

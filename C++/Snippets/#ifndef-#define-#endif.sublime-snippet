@@ -1,6 +1,6 @@
 <snippet>
 	<description>#ifndef … #define … #endif</description>
-	<content><![CDATA[#ifndef ${1:${TM_FILENAME/(\.)|(\w)/(?1_:)(?2\u$2:)/g}}
+	<content><![CDATA[ifndef ${1:${TM_FILENAME/(\.)|(\w)/(?1_:)(?2\u$2:)/g}}
 #define $1
 
 $0
