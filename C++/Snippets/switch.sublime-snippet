@@ -1,0 +1,9 @@
+<snippet>
+	<name>switch</name>
+	<content><![CDATA[switch (${1:x})
+{
+	${0}
+}]]></content>
+	<tabTrigger>switch</tabTrigger>
+	<scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>
