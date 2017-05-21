@@ -1,12 +1,9 @@
 <snippet>
-	<content><![CDATA[/**
- * $1
- */
-struct ${1:name}
+	<content><![CDATA[struct ${1:name}
 {
 	$2
 }]]></content>
-	<tabTrigger>st</tabTrigger>
+	<tabTrigger>struct</tabTrigger>
 	<scope>source.d</scope>
 	<description>struct … { … }</description>
 </snippet>
