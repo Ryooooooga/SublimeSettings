@@ -16,6 +16,11 @@
 			"shell_cmd": "dub run",
 		},
 		{
+			"name": "Dub Test",
+			"working_dir": "${folder}",
+			"shell_cmd": "dub test",
+		},
+		{
 			"name": "Dub Clean",
 			"working_dir": "${folder}",
 			"shell_cmd": "dub clean",
