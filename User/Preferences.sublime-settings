@@ -4,13 +4,14 @@
 	"color_scheme": "Packages/User/SublimeLinter/amCoder (SL).tmTheme",
 	"folder_exclude_patterns":
 	[
-		".svn",
+		".dub",
 		".git",
 		".hg",
+		".svn",
+		".vs",
 		"CVS",
 		"bazel-*",
-		".dub",
-		"node_modules"
+		"node_modules",
 	],
 	"ignored_packages":
 	[
