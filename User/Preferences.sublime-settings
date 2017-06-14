@@ -9,7 +9,8 @@
 		".hg",
 		"CVS",
 		"bazel-*",
-		".dub"
+		".dub",
+		"node_modules"
 	],
 	"ignored_packages":
 	[
