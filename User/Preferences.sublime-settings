@@ -20,5 +20,6 @@
 	"scroll_past_end": true,
 	"show_line_endings": true,
 	"showencoding": true,
-	"theme": "amCoder.sublime-theme"
+    "word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?　、。？！ー～―…「」（）",
+	"theme": "amCoder.sublime-theme",
 }
