@@ -1,6 +1,6 @@
 <snippet>
-	<description>noexcept</description>
-	<content><![CDATA[noexcept]]></content>
-	<tabTrigger>noexcept</tabTrigger>
+	<description>const T&</description>
+	<content><![CDATA[const ${1:type}& ]]></content>
+	<tabTrigger>cref</tabTrigger>
 	<scope>source.c++, source.objc++</scope>
 </snippet>

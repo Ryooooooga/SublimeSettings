@@ -1,0 +1,6 @@
+<snippet>
+	<description>Microsoft::WRL::ComPtr</description>
+	<content><![CDATA[Microsoft::WRL::ComPtr<${1:type}>$0]]></content>
+	<tabTrigger>ComPtr</tabTrigger>
+	<scope>source.c++, source.objc++</scope>
+</snippet>

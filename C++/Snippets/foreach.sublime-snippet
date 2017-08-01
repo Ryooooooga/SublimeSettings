@@ -1,6 +1,6 @@
 <snippet>
 	<description>Range-Based For Loop</description>
-	<content><![CDATA[for (${3:auto&&} ${2:x} : ${1:range})
+	<content><![CDATA[for (${3:const auto&} ${2:x} : ${1:range})
 {
 	$0
 }]]></content>

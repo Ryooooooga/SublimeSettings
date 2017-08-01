@@ -1,0 +1,6 @@
+<snippet>
+	<name>Destructor</name>
+	<content><![CDATA[~${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}($2) =default;]]></content>
+	<tabTrigger>dtor</tabTrigger>
+	<scope>source.c++, source.objc++</scope>
+</snippet>
