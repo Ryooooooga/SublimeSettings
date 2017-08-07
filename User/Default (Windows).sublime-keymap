@@ -14,6 +14,9 @@
 	{ "keys": ["ctrl+alt+right"], "command": "focus_neighboring_group", "args": {"forward": true} },
 	{ "keys": ["ctrl+alt+shift+left"], "command": "move_to_neighboring_group", "args": {"forward": false} },
 	{ "keys": ["ctrl+alt+shift+right"], "command": "move_to_neighboring_group", "args": {"forward": true} },
+
+	{ "keys": ["ctrl+equals"], "command": "null" },
+	{ "keys": ["ctrl+shift+equals"], "command": "null" },
 	
 	{ "keys": ["alt+backspace"], "command": "run_macro_file", "args": {"file": "Packages/User/Macros/delete_subword.sublime-macro"} },
 	{ "keys": ["alt+delete"], "command": "run_macro_file", "args": {"file": "Packages/User/Macros/delete_subword_forward.sublime-macro"} },
