@@ -1,10 +1,20 @@
 [
 	{ "keys": ["ctrl+shift+alt+t"], "command": "open_terminal" },
 	{ "keys": ["ctrl+shift+t"], "command": "open_terminal_project_folder" },
+	
 	{ "keys": ["ctrl+alt+n"], "command": "advanced_new_file_new"},
 	{ "keys": ["ctrl+alt+o"], "command": "sublime_files", "args": {"command": "navigate"} },
+	
 	{ "keys": ["shift+alt+up"], "command": "select_lines", "args": {"forward": false} },
 	{ "keys": ["shift+alt+down"], "command": "select_lines", "args": {"forward": true} },
+
+	{ "keys": ["ctrl+alt+up"], "command": "new_pane" },
+	{ "keys": ["ctrl+alt+down"], "command": "close_pane" },
+	{ "keys": ["ctrl+alt+left"], "command": "focus_neighboring_group", "args": {"forward": false} },
+	{ "keys": ["ctrl+alt+right"], "command": "focus_neighboring_group", "args": {"forward": true} },
+	{ "keys": ["ctrl+alt+shift+left"], "command": "move_to_neighboring_group", "args": {"forward": false} },
+	{ "keys": ["ctrl+alt+shift+right"], "command": "move_to_neighboring_group", "args": {"forward": true} },
+	
 	{ "keys": ["alt+backspace"], "command": "run_macro_file", "args": {"file": "Packages/User/Macros/delete_subword.sublime-macro"} },
 	{ "keys": ["alt+delete"], "command": "run_macro_file", "args": {"file": "Packages/User/Macros/delete_subword_forward.sublime-macro"} },
 	{ "keys": ["alt+/"], "command": "auto_complete" },
