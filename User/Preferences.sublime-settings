@@ -11,7 +11,7 @@
 		".vs",
 		"CVS",
 		"bazel-*",
-		"node_modules",
+		"node_modules"
 	],
 	"ignored_packages":
 	[
@@ -20,6 +20,6 @@
 	"scroll_past_end": true,
 	"show_line_endings": true,
 	"showencoding": true,
-    "word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?　、。？！ー～―…「」（）",
 	"theme": "amCoder.sublime-theme",
+	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?　、。？！ー～―…「」（）"
 }
