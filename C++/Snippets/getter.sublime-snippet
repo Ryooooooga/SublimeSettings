@@ -1,6 +1,7 @@
 <snippet>
 	<name>Getter</name>
-	<content><![CDATA[${1:type} ${2:value}() const noexcept
+	<content><![CDATA[[[nodiscard]]
+${1:type} ${2:value}() const noexcept
 {
 	return ${3:${2/^(\w)/\l$1/}_};
 }]]></content>
