@@ -1,0 +1,11 @@
+<snippet>
+	<name>Uncopyable</name>
+	<content><![CDATA[${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}(const $1&) =delete;
+$1($1&&) =${2:default};
+
+$1& operator=(const $1&) =delete;
+$1& operator=($1&&) =$2;
+]]></content>
+	<tabTrigger>uncopyable</tabTrigger>
+	<scope>source.c++, source.objc++</scope>
+</snippet>
