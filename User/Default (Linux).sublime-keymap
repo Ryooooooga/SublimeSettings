@@ -1,4 +1,7 @@
 [
+	{ "keys": ["ctrl+keypad_enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
+	{ "keys": ["ctrl+shift+keypad_enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line Before.sublime-macro"} },
+
 	{ "keys": ["ctrl+shift+alt+t"], "command": "open_terminal" },
 	{ "keys": ["ctrl+shift+t"], "command": "open_terminal_project_folder" },
 	{ "keys": ["ctrl+alt+n"], "command": "advanced_new_file_new"},
