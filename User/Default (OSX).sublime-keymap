@@ -3,4 +3,6 @@
 	{ "keys": ["super+alt+o"], "command": "sublime_files", "args": {"command":"navigate"}},
 	{ "keys": ["alt+backspace"], "command": "run_macro_file", "args": {"file": "Packages/User/Macros/delete_subword.sublime-macro"} },
 	{ "keys": ["alt+delete"], "command": "run_macro_file", "args": {"file": "Packages/User/Macros/delete_subword_forward.sublime-macro"} },
+	{ "keys": ["ctrl+delete"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard EOL.sublime-macro"} },
+	{ "keys": ["super+delete"], "command": "delete_word", "args": { "forward": true, "sub_words": true } },
 ]
