@@ -1,0 +1,15 @@
+<snippet>
+	<name>CSS animation</name>
+	<content><![CDATA[
+animation-name: ${1:animation-name};
+animation-delay: ${2:0s};
+animation-direction: ${3:normal};
+animation-iteration-count: ${4:1};
+animation-duration: ${5:2s};
+animation-play-state: ${6:running};
+animation-timing-function: ${7:ease};
+animation-fill-mode: ${8:none};
+]]></content>
+	<tabTrigger>animation</tabTrigger>
+	<scope>source.css, source.scss</scope>
+</snippet>

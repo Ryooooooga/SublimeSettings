@@ -1,0 +1,15 @@
+<snippet>
+	<name>CSS animation keyframes</name>
+	<content><![CDATA[
+keyframes ${1:animation-name} {
+	0% {
+		$2
+	}
+	100% {
+		$3
+	}
+}
+]]></content>
+	<tabTrigger>keyframes</tabTrigger>
+	<scope>source.css, source.scss</scope>
+</snippet>
