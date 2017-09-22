@@ -5,5 +5,10 @@
 		"-I$project_base_path/src",
 		"-I/usr/lib/clang/$clang_version/include",
 	],
-	"cpp_flags" : [ "-std=c++1z" ],
+	"cpp_flags" : [
+		"-std=c++1z",
+		"-Wall",
+		"-Wextra",
+		"-Wno-unknown-attributes"
+	],
 }
