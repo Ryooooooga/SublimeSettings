@@ -13,6 +13,7 @@
 		"bazel-*",
 		"node_modules"
 	],
+	"font_face": "Source Han Code JP",
 	"ignored_packages":
 	[
 		"Vintage"
