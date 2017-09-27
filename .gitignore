@@ -24,6 +24,10 @@ Makefile/*
 !Makefile/*.sublime-settings
 !Makefile/*.sublime-build
 
+!Markdown/
+Markdown/*
+!Markdown/Snippets/
+
 !User/
 User/Package Control.cache/
 User/encoding_cache.json

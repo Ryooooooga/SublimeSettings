@@ -1,0 +1,17 @@
+<snippet>
+	<description>table</description>
+	<content><![CDATA[
+\\begin{table}[H]
+	\\centering
+	\\begin{tabular}{$1}
+		\hline
+		$2 \\\\
+		\hline
+		$0 \\\\
+		\hline
+	\\end{tabular}
+\\end{table}
+]]></content>
+	<tabTrigger>table</tabTrigger>
+	<scope>text.tex.latex, source.tex, text.html.markdown.multimarkdown, text.html.markdown</scope>
+</snippet>

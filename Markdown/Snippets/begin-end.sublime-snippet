@@ -1,0 +1,10 @@
+<snippet>
+	<description>begin{...} end{...} </description>
+	<content><![CDATA[
+begin{${1:equation}}
+	$0
+\\end{$1}
+]]></content>
+	<tabTrigger>begin</tabTrigger>
+	<scope>text.tex.latex, source.tex, text.html.markdown.multimarkdown, text.html.markdown</scope>
+</snippet>
