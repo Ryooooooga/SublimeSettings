@@ -3,9 +3,11 @@
 	<content><![CDATA[
 \\begin{table}[H]
 	\\centering
-	\\begin{tabular}{$1}
+	\\caption{$1}
+	\\label{tb:$2}
+	\\begin{tabular}{$3}
 		\hline
-		$2 \\\\
+		$4 \\\\
 		\hline
 		$0 \\\\
 		\hline
