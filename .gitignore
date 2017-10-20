@@ -28,6 +28,8 @@ Makefile/*
 Markdown/*
 !Markdown/Snippets/
 
+!Rust/
+
 !User/
 User/Package Control.cache/
 User/encoding_cache.json
