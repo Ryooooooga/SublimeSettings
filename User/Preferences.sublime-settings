@@ -24,7 +24,9 @@
 		"*.psd",
 		"*.db",
 		"*.sublime-workspace",
-		"*.out"
+		"*.out",
+		"*.gcda",
+		"*.gcno"
 	],
 	"folder_exclude_patterns":
 	[
