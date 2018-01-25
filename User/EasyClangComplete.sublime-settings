@@ -1,7 +1,6 @@
 {
 	"common_flags" : [
 		"-I/usr/include",
-		"-I/usr/local/include/c++/8.0.0",
 		"-I$project_base_path/src",
 		"-I/usr/lib/clang/$clang_version/include",
 	],
