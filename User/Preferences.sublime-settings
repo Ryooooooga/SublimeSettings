@@ -40,8 +40,10 @@
 		"node_modules"
 	],
 	"font_face": "源ノ角ゴシック Code JP",
+	"font_size": 9,
 	"ignored_packages":
 	[
+		"IMESupport",
 		"Vintage"
 	],
 	"scroll_past_end": true,
