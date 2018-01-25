@@ -39,7 +39,7 @@
 		"bazel-*",
 		"node_modules"
 	],
-	"font_face": "Source Han Code JP",
+	"font_face": "源ノ角ゴシック Code JP",
 	"ignored_packages":
 	[
 		"Vintage"
