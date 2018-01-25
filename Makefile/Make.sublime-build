@@ -20,5 +20,10 @@
 			"name": "Clean",
 			"shell_cmd": "make -j2 clean"
 		}
-	]
+	],
+
+	"windows":
+	{
+		"path": "C:\\msys64\\mingw64\\bin\\;C:\\msys64\\usr\\local\\bin\\;C:\\msys64\\usr\\bin\\"
+	}
 }

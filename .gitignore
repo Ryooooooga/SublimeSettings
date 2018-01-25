@@ -2,6 +2,7 @@
 
 !C++/
 C++/*
+!C++/*.sublime-build
 !C++/Snippets/
 
 !C#/
