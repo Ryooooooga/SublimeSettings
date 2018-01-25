@@ -1,4 +1,2 @@
 {
-	"terminal": "C:\\msys64\\msys2_shell.cmd",
-	"parameters": ["-mingw64", "-where", "%CWD%"]
 }
