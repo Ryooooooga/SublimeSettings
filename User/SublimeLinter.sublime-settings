@@ -18,7 +18,7 @@
                 "@disable": false,
                 "args": [],
                 "excludes": [],
-                "extra_flags": "-std=c++1z"
+                "extra_flags": "-std=c++1z -Wall -Wextra"
             },
             "json": {
                 "@disable": false,
