@@ -3,6 +3,7 @@
 		"-I/usr/include",
 		"-I$project_base_path/src",
 		"-I/usr/lib/clang/$clang_version/include",
+		"-I~/boost/boost_1_66_0",
 	],
 	"cpp_flags" : [
 		"-std=c++1z",
