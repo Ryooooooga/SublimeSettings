@@ -46,7 +46,6 @@
 		"SublimeLinter",
 		"SublimeLinter-contrib-gcc",
 		"SublimeLinter-cppcheck",
-		"SublimeLinter-cpplint",
 		"SublimeLinter-json",
 		"SublimeMozcInput",
 		"Swift",

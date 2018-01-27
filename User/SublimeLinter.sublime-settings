@@ -14,13 +14,6 @@
                 "excludes": [],
                 "std": []
             },
-            "cpplint": {
-                "@disable": true,
-                "args": [],
-                "excludes": [],
-                "filter": "-legal/copyright,-whitespace/brace,-whitespace/tab",
-                "linelength": ""
-            },
             "gcc": {
                 "@disable": false,
                 "args": [],
