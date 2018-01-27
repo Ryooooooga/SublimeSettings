@@ -1,5 +1,7 @@
 *
 
+!.editorconfig
+
 !C++/
 C++/*
 !C++/*.sublime-build
