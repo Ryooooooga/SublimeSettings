@@ -18,7 +18,7 @@
 				"@disable": false,
 				"args": [],
 				"excludes": [],
-				"extra_flags": "-std=c++1z -Wall -Wextra -I/home/ryoga/boost/boost_1_66_0"
+				"extra_flags": "-std=c++1z -Wall -Wextra -I/home/ryoga/boost/boost_1_66_0 -I/usr/lib/llvm-5.0/include"
 			},
 			"json": {
 				"@disable": false,

@@ -4,6 +4,7 @@
 		"-I$project_base_path/src",
 		"-I/usr/lib/clang/$clang_version/include",
 		"-I~/boost/boost_1_66_0",
+		"-I/usr/lib/llvm-5.0/include",
 	],
 	"cpp_flags" : [
 		"-std=c++1z",
