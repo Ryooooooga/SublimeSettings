@@ -54,7 +54,9 @@
 		"Terminal",
 		"TerminalView",
 		"Theme - amCoder",
-		"TodoReview"
+		"TodoReview",
+		"TypeScript",
+		"Vue Syntax Highlight"
 	],
 	"repositories":
 	[
