@@ -29,6 +29,7 @@
 		"Google Search",
 		"IMESupport",
 		"Increment Selection",
+		"Local History",
 		"Markdown Extended",
 		"Markdown Preview",
 		"Package Control",
@@ -45,8 +46,8 @@
 		"SML (Standard ML)",
 		"Sublime Files",
 		"SublimeLinter",
-		"SublimeLinter-contrib-gcc",
 		"SublimeLinter-cppcheck",
+		"SublimeLinter-gcc",
 		"SublimeLinter-json",
 		"SublimeMozcInput",
 		"Swift",
@@ -54,7 +55,9 @@
 		"Terminal",
 		"TerminalView",
 		"Theme - amCoder",
-		"TodoReview"
+		"TodoReview",
+		"TypeScript",
+		"Vue Syntax Highlight"
 	],
 	"repositories":
 	[

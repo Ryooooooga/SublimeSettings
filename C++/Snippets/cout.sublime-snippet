@@ -1,6 +1,6 @@
 <snippet>
 	<description>cout-endl</description>
-	<content><![CDATA[std::cout << ${1:x} << std::endl;]]></content>
+	<content><![CDATA[std::${1:cout} << ${2:x} << std::endl;]]></content>
 	<tabTrigger>cout</tabTrigger>
 	<scope>source.c++, source.objc++</scope>
 </snippet>
