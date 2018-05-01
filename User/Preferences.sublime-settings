@@ -1,7 +1,7 @@
 {
 	"bold_folder_labels": true,
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/User/SublimeLinter/amCoder (SL).tmTheme",
+	"color_scheme": "Packages/Theme - amCoder/amCoder.tmTheme",
 	"file_exclude_patterns":
 	[
 		"*.pyc",
