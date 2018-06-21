@@ -1,0 +1,44 @@
+<snippet>
+	<name>CMakeLists.txt</name>
+	<content><![CDATA[
+cmake_minimum_required(VERSION 3.0.0)
+
+project(${1:${TM_FILEPATH/.+\/([^\/]+)\/([^\/]+)\..*$/$1/g}} VERSION 0.1.0 LANGUAGES CXX)
+
+set(CMAKE_CXX_FLAGS "-std=c++17 -Wall -Wextra -Werror -pedantic")
+set(CMAKE_CXX_FLAGS_DEBUG "-g3 -O0 -pg")
+set(CMAKE_CXX_FLAGS_RELEASE "-O2 -DNDEBUG -march=native")
+set(CMAKE_CXX_FLAGS_RELWITHDEBINFO "-g3 -Og -pg")
+set(CMAKE_CXX_FLAGS_MINSIZEREL "-Os -DNDEBUG -march=native")
+
+set(CMAKE_BUILD_TYPE Debug)
+#set(CMAKE_BUILD_TYPE Release)
+
+find_package(Boost 1.65.0 REQUIRED)
+find_package(Backtrace)
+
+if(\${Backtrace_FOUND})
+	add_definitions(-DBOOST_STACKTRACE_USE_BACKTRACE)
+
+	if(Backtrace_LIBRARY STREQUAL "")
+		set(STACKTRACE_INCLUDE_DIRS \${Backtrace_INCLUDE_DIR})
+		set(STACKTRACE_LIBS \${CMAKE_DL_LIBS} backtrace)
+	else()
+		set(STACKTRACE_INCLUDE_DIRS \${Backtrace_INCLUDE_DIR})
+		set(STACKTRACE_LIBS \${CMAKE_DL_LIBS} \${Backtrace_LIBRARY})
+	endif()
+else()
+	set(STACKTRACE_INCLUDE_DIRS "")
+	set(STACKTRACE_LIBS \${CMAKE_DL_LIBS})
+endif()
+
+include_directories(
+	\${Boost_INCLUDE_DIR}
+	\${STACKTRACE_INCLUDE_DIRS}
+)
+
+add_subdirectory(src)
+]]></content>
+	<tabTrigger>cmakelists</tabTrigger>
+	<scope>source.cmake</scope>
+</snippet>
