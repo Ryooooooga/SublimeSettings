@@ -5,7 +5,7 @@
 
 $0
 
-#endif  // #ifndef $2]]></content>
+#endif]]></content>
 	<tabTrigger>ifndef</tabTrigger>
 	<scope>source.c, source.c++, source.objc, source.objc++</scope>
 </snippet>
