@@ -1,0 +1,6 @@
+<snippet>
+	<name>Member Initializer</name>
+	<content><![CDATA[${1:m_value}(${2:${1/^m_(.+)/$1/m}})]]></content>
+	<tabTrigger>init</tabTrigger>
+	<scope>source.c++, source.objc++</scope>
+</snippet>
