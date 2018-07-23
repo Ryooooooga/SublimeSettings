@@ -1,6 +1,6 @@
 <snippet>
 	<description>main()</description>
-	<content><![CDATA[main([[maybe_unused]] int argc, [[maybe_unused]] char* argv[])
+	<content><![CDATA[main(${1:int argc, char* argv[]})
 {
 	$0
 }]]></content>
