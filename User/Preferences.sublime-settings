@@ -2,6 +2,7 @@
 	"bold_folder_labels": true,
 	"close_windows_when_empty": false,
 	"color_scheme": "Packages/Theme - amCoder/amCoder.tmTheme",
+	"default_line_ending": "unix",
 	"file_exclude_patterns":
 	[
 		"*.pyc",
