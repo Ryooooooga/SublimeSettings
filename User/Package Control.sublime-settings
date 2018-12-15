@@ -41,7 +41,6 @@
 		"Sublime Files",
 		"SublimeLinter",
 		"SublimeLinter-json",
-		"SublimeMozcInput",
 		"Swift",
 		"SyncedSideBar",
 		"Terminal",
@@ -49,6 +48,5 @@
 	],
 	"repositories":
 	[
-		"https://github.com/yasuyuky/SublimeMozcInput"
 	]
 }
