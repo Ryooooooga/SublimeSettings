@@ -4,19 +4,6 @@
 	"gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
 	"lint_mode": "background",
 	"linters": {
-		"cppcheck": {
-			"@disable": false,
-			"args": [],
-			"enable": "style",
-			"excludes": [],
-			"std": []
-		},
-		"gcc": {
-			"@disable": false,
-			"args": [],
-			"excludes": [],
-			"extra_flags": "-std=c++1z -Wall -Wextra"
-		},
 		"json": {
 			"@disable": false,
 			"args": [],
