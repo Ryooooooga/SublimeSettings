@@ -5,7 +5,6 @@
 	],
 	"installed_packages":
 	[
-		"A File Icon",
 		"Advanced CSV",
 		"AdvancedNewFile",
 		"AlignTab",
@@ -20,6 +19,7 @@
 		"Dockerfile Syntax Highlighting",
 		"DoxyDoxygen",
 		"EditorConfig",
+		"FileIcons",
 		"FindKeyConflicts",
 		"Git",
 		"GitGutter",
